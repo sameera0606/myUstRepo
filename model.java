@@ -1,23 +1,14 @@
-package EmployeeSort;
+package panCardValidation;
 
 public class model {
 
+	public String name;
+	public String panNumber;
 	
-	private int id;
-	private String name;
-	
-	
-	
-	public model(int id, String name) {
+	public model(String name, String panNumber) {
 		super();
-		this.id = id;
 		this.name = name;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
+		this.panNumber = panNumber;
 	}
 	public String getName() {
 		return name;
@@ -25,10 +16,11 @@ public class model {
 	public void setName(String name) {
 		this.name = name;
 	}
-	@Override
-	public String toString() {
-		return "id=" + id + ", name=" + " "+name + " ";
+	public String getPanNumber() {
+		return panNumber;
 	}
-	
+	public void setPanNumber(String panNumber) {
+		this.panNumber = panNumber;
+	}
 	
 }
