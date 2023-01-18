@@ -1,0 +1,7 @@
+com\ust\farmer\FarmerApplication.class
+com\ust\farmer\model\Crops.class
+com\ust\farmer\model\Field.class
+com\ust\farmer\repository\cropsRepository.class
+com\ust\farmer\controller\FieldController.class
+com\ust\farmer\service\fieldService.class
+com\ust\farmer\repository\fieldRepository.class
