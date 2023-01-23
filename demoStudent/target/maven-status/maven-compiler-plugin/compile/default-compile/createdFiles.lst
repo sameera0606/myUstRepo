@@ -1,0 +1,4 @@
+com\example\demoStudent\dao\StudentDao.class
+com\example\demoStudent\model\StudentModel.class
+com\example\demoStudent\controller\StudentController.class
+com\example\demoStudent\DemoStudentApplication.class
